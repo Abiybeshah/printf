@@ -22,5 +22,6 @@ int printf_string(va_list val);
 int _printf(const char *format, ...);
 int print_int(va_list args);
 int print_dec(va_list args);
+int print_unsigned(va_list args);
 
 #endif
