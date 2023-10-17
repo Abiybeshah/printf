@@ -6,13 +6,14 @@
 * Return: the len of the str
 */
 
-int _printf_string(va_list val)
+int printf_string(va_list val)
 {
 	char *str;
 	int i;
 	int len;
 
 	str = va_arg(val, char *);
+
 	if (str == NULL)
 	{
 		str = ("null");
