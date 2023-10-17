@@ -14,7 +14,7 @@ typedef struct format
 } match;
 
 int _putchar(char c);
-int print_37(void);
+int printf_37(void);
 int _strlen(char *str);
 int _strlen_cons(const char *str);
 int printf_char(va_list val);

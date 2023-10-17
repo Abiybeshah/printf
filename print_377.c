@@ -5,7 +5,7 @@
 * Return: return void
 */
 
-int print_37(void)
+int _print_37(void)
 {
 	_putchar(37);
 	return (1);

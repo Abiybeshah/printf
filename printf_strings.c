@@ -6,7 +6,7 @@
 * Return: the len of the str
 */
 
-int printf_string(va_list val)
+int _printf_string(va_list val)
 {
 	char *str;
 	int i;
