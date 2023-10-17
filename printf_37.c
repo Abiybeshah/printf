@@ -2,7 +2,7 @@
 
 /**
 * printf_37 - prints a percent sign
-* Return: return void
+* Return: int
 */
 
 int printf_37(void)
