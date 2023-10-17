@@ -19,6 +19,5 @@ int _strlen(char *str);
 int _strlen_cons(const char *str);
 int printf_char(va_list val);
 int printf_string(va_list val);
-int _printf(const char *format, ...);
 
 #endif
