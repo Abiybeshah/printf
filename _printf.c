@@ -35,9 +35,10 @@ Here:
 			j--;
 		}
 		_putchar(format[i]);
-		i++;
 		len++;
+		i++;
 	}
+
 	va_end(args);
 	return (len);
 }
