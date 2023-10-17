@@ -7,6 +7,13 @@
 #include <stdlib.h>
 #include <limits.h>
 
+/**
+* struct format - match the conversion specifiers for printf
+* @id: type char pointer of the specifier i.e (l, h) for
+* (d, i, u, o, x, X)
+* @f: type pointer to fun for the conversion specifier
+*/
+
 typedef struct format
 {
 	char *id;
