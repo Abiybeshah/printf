@@ -11,7 +11,7 @@ int printf_oct(va_list val)
 	int *array;
 	int counter = 0;
 	unsigned int num = va_arg(val, unsigned int);
-	unsigned int temp = num;
+	unsigned int tem = num;
 
 	while (num / 8 != 0)
 	{
@@ -23,10 +23,10 @@ int printf_oct(va_list val)
 
 	for (i = 0; i < counter; i++)
 	{
-		array[i] = temp % 8;
-		temp /= 8;
+		array[i] = tem % 8;
+		tem = tem / 8;
 	}
-	for (i = counter - 1; i >= 0; i--)
+	for (i = counter - 1; i >= 0; i++)
 	{
 		_putchar(array[i] + '0');
 	}
